@@ -1,7 +1,7 @@
 (function () {
   let count = 0;
 
-  function interval() {
+  function play() {
     const ul = document.querySelector( '.slider ul' );
     const childLength = ul.children.length;
     const index = count % childLength;
@@ -15,7 +15,7 @@
     count += 1;
   }
 
-  setInterval( interval, 4000 );
+  setInterval( play, 5000 );
 })();
 
 

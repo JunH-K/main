@@ -1,3 +1,3 @@
-# 메인페이지
+# main
 
 https://kdeveloper87.github.io/main/
