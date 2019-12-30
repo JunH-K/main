@@ -102,6 +102,7 @@ ul, li {
     font-size: 32px;
     line-height: 52px;
     margin-right: 20px;
+    perspective: 1000px;
 }
 
 .contents_list > li:last-child{
@@ -110,4 +111,12 @@ ul, li {
 
 .contents_list > li > a{
     color: white;
+}
+
+.contents_list li i{
+    transition: 1s;
+}
+
+.contents_list li i:hover{
+    transform:   rotateY(360deg);
 }
